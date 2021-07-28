@@ -6,14 +6,33 @@ namespace Bricks
 {
     public class Game1 : Game
     {
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        // All Entities present within this spectrum
+        GameContent gameContent;
+        private Wall wall;
+        private Paddle paddle;
+        private Ball ball;
+        // private Ball staticBall;
+        private GameBorder border;
+        private int screenWidth = 0;
+        private int screenHeight = 0;
+
+        // Mouse and Keyboard controls
+        private MouseState oldmouse;
+        private KeyboardState oldkeyboard;
+
+        // Components for the Ball
+        private bool ReadytoserveBall = true;
+        private int ballRemaining = 3;
+
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
         public Game1()
-        {
+        {            
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = true;
         }
 
         protected override void Initialize()
@@ -27,7 +46,21 @@ namespace Bricks
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            gameContent = new GameContent(Content);
+            screenWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            screenHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            // set game to 502 * 700 or screen max if smaller
+            if (screenWidth >= 510)
+            {
+                screenWidth = 510;
+            }
+            if (screenWidth >= 710)
+            {
+                screenWidth = 710;
+            }
+            graphics.PreferredBackBufferWidth = screenWidth;
+            graphics.PreferredBackBufferHeight = screenHeight;
+            graphics.ApplyChanges();
         }
 
         protected override void Update(GameTime gameTime)
