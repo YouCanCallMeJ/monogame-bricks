@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/Arkanoid.png</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/Ball.png</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/BallMiss.wav</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/Brick (1).png</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/BrickBreak.wav</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/File.spritefont</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/LaunchBall.wav</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/Paddle.png</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/PaddleBounce.wav</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/pixel.png</File>
+    <File>D:/01. 개인/03. 학습/04. Programming/Monogame/monogame-bricks/Bricks/Bricks/Content/WallBounce.wav</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Helvetica.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
