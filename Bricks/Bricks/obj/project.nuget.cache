@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FVMEbUwDPW+na2HeOBR5r5lQcqQPnyfQUwbvoBp/92tz7L2/1gAsedajVCq6229zmBmWYJ/6qp8yTxanUwLgjQ==",
+  "success": true,
+  "projectFilePath": "D:\\01. 개인\\03. 학습\\04. Programming\\Monogame\\monogame-bricks\\Bricks\\Bricks\\Bricks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YangJunSeo\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\YangJunSeo\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
